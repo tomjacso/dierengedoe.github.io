@@ -1,0 +1,125 @@
+body {
+    background-color:bisque;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 60px;
+    height: auto;
+    cursor: url(images/signs_rock_on-512.png);
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 30;
+    text-align: center;
+     float: left 80%;
+    padding: left 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+p {
+    padding-left: 25px;
+    width: 40%;
+    float: none;
+    
+}
+
+h2 {
+    padding-left: 5%;
+}
+
+div {
+    float: up;
+}
+
+ol {
+    list-style-type:circle;
+    width: 40%
+}
+
+footer {
+    background-color:brown;
+    height: auto;
+    position:static;
+    bottom: -100%;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: aliceblue
+}
+
+footer a {
+    display: block;
+    color:azure;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+footer a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+container {
+    min-height: 200%;
+    position: relative;
+}
+
+header {
+    background: none;
+    padding: none;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    height: auto;
+    margin-top: -50px
+}
+
+header {
+    font-size: 610%;
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 2%;
+}
+
+h3 {
+    padding-left: 6%;
+}
+
+.custom-cur {
+     cursor: url(signs_rock_on-512.png), url(signs_rock_on-512.png);
+  
+}
